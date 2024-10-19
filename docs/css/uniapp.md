@@ -1,3 +1,10 @@
+# Uniapp CSS
+
+代码位置: <https://github.com/windyeasy/common-frontend-code/blob/master/uni-vue3-template/src/assets/css/uniapp.css>
+
+## 代码
+
+```css
 
 /* 常用字体大小 */
 .fs-48 {
@@ -365,3 +372,16 @@
 .br-8 {
   border-radius: 8rpx;
 }
+```
+
+## 使用
+
+### 方式一
+
+- 创建一个CSS文件将代码拷贝到文件里面
+- 在项目里面引入这个文件
+
+### 方式二
+
+- 在代码位置单独下载这个文件，在项目中
+- 在项目里面引入这个文件

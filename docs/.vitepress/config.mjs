@@ -17,11 +17,18 @@ export default defineConfig({
           { text: '开始', link: '/start' },
           { text: '为什么写这个项目?', link: '/introduction' }
         ]
+      },
+      {
+        text: 'CSS',
+        items: [
+          { text: 'common', link: '/css/common' },
+          { text: 'uniapp', link: '/css/uniapp' }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/windyeasy/common-frontend-code' }
     ]
   }
 })
