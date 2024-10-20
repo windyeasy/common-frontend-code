@@ -8,7 +8,7 @@
 
 /* 常用字体大小 */
 .fs-48 {
-  font-size: 38rpx;
+  font-size: 48rpx;
 }
 
 .fs-40 {
