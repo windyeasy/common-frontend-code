@@ -24,7 +24,20 @@ export default defineConfig({
           { text: 'common', link: '/css/common' },
           { text: 'uniapp', link: '/css/uniapp' }
         ]
-      }
+      },
+      {
+        text: 'request',
+        items: [
+          { text: 'uniapp', link: '/request/uniapp' },
+        ]
+      },
+      {
+        text: 'utils',
+        items: [
+          { text: 'uniapp', link: '/utils/uniapp' },
+        ]
+      },
+
     ],
 
     socialLinks: [
