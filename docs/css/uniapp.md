@@ -134,37 +134,6 @@
   padding: 16rpx;
 }
 
-/* 24rpx */
-.p-t-24 {
-  padding-top: 24rpx;
-}
-
-.p-b-24 {
-  padding-bottom: 24rpx;
-}
-
-.p-l-24 {
-  padding-left: 24rpx;
-}
-
-.p-r-24 {
-  padding-right: 24rpx;
-}
-
-.px-24 {
-  padding-left: 24rpx;
-  padding-right: 24rpx;
-}
-
-.py-24 {
-  padding-top: 24rpx;
-  padding-bottom: 24rpx;
-}
-
-.p-24 {
-  padding: 24rpx;
-}
-
 /* 12rpx  */
 .p-t-12 {
   padding-top: 12rpx;
