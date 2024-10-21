@@ -101,75 +101,80 @@
 /* flex start */
 /* 开启flex */
 .d-f {
-	display: flex;
+ display: flex;
 }
 
 /* 水平垂直居中 */
 .d-c-c {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 /* 垂直居中，水平靠底 */
 .d-c-e {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
 }
 
 /* 垂直居中 */
 .d-s-c {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
 }
 
 /* 靠右 */
 .d-s-e {
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-end;
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-end;
 }
 
 
 /* 垂直居中，水平靠右 */
 .d-e-c {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
 }
 
 /* 向左右两边排布，垂直居中 */
 .d-b-c {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
 
 
 /* 垂直居中，元素内容自动排列 */
 .d-a-c {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
 }
 
 /* 设置主轴为垂直 */
 .d-c {
-	flex-direction: column;
+ flex-direction: column;
 }
 
 /* 设置元素为拉伸  */
 .d-stretch {
-	align-items: stretch;
-	align-content: stretch;
+ align-items: stretch;
+ align-content: stretch;
 }
 
+/* flex布局允许换行 */
 .f-w {
-	flex-wrap: wrap;
+ flex-wrap: wrap;
 }
 
+/* 设置flex */
+.f-1 {
+ flex: 1;
+}
 /* flex end */
 
 /* text */

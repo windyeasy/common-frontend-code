@@ -159,8 +159,14 @@
 	align-content: stretch;
 }
 
+/* flex布局允许换行 */
 .f-w {
 	flex-wrap: wrap;
+}
+
+/* 设置flex */
+.f-1 {
+	flex: 1;
 }
 
 /* flex end */
