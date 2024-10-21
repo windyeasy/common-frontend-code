@@ -26,18 +26,22 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 9
-
-      - uses: actions/setup-node@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: pnpm
-      
+      - name: Install pnpm globally
+        run: npm install -g pnpm
+        
       - name: Install dependencies
         run: pnpm i
-        working-directory: ./docs
+        working-directory: ./docs 
       - name: Build
-        run: pnpm docs:build
+        run: pnpm run docs:build
         working-directory: ./docs
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
