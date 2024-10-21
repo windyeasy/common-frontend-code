@@ -34,10 +34,10 @@ jobs:
       
       - name: Install dependencies
         run: pnpm i
-        working-directory: ./docs/
+        working-directory: ./docs
       - name: Build
         run: pnpm docs:build
-        working-directory: ./docs/
+        working-directory: ./docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
