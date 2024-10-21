@@ -47,11 +47,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: artifact
+          name: artifact-${{ github.run_id }}
           path: ./docs/.vitepress/dist
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: artifact
+          artifact_name: artifact-${{ github.run_id }}
