@@ -31,6 +31,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'none' 
         
       - name: Install pnpm globally
         run: npm install -g pnpm
