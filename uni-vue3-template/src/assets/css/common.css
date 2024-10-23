@@ -104,12 +104,6 @@
 	align-items: center;
 }
 
-/* 水平居中，垂直靠上 */
-.d-c-s {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
 
 /* 垂直居中，水平靠底 */
 .d-c-e {
