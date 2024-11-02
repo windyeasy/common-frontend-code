@@ -52,6 +52,10 @@ class WdRequest {
         url: config.url as string,
         ...config,
         success: (res: any) => {
+          if(res &&　res.statusCode <200 || res.statusCode >= 300){
+            reject(res)
+            return
+          }
           // 有可能在执行的过程出现异常后抛出异常
           try {
             // 实现全局响应拦截
